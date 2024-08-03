@@ -1,32 +1,32 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import AboutUsFeatures from '@site/src/components/AboutUsFeatures';
+import EventsFeature from '@site/src/components/EventsFeatures';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import HSPLogo from './hsp.png';
 import styles from './index.module.css';
 
-function AboutUsHeader() {
+function EventsHeader() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <header className={clsx('hero hero--primary', styles.heroBannerDarkBlue)}>
             <div className="container">
-                <h1 className="hero__title">About Us</h1>
+                <h1 className="hero__title">Events</h1>
             </div>
         </header>
     );
 }
 
-export default function AboutUs() {
+export default function Events() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title={`About ${siteConfig.title}`}
+            title={`Events : ${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
-            <AboutUsHeader />
+            <EventsHeader />
             <main>
-                <AboutUsFeatures />
+                <EventsFeature />
             </main>
         </Layout>
     );
