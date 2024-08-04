@@ -25,7 +25,7 @@ export default function Events() {
             title={`Events : ${siteConfig.title}`}
             description="Description will go into a meta tag in <head />">
             <EventsHeader />
-            <main>
+            <main className={styles.mainContent}>
                 <EventsFeature />
             </main>
         </Layout>

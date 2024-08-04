@@ -1,56 +1,28 @@
-.pageTitleContainer {
+.eventsSection {
+  padding: 2rem 0;
+}
+
+.eventRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.imageColumn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
-  width: 100%;
-}
-
-.pageTitle {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.features {
-  padding: 2rem 0;
-  width: 100%;
 }
 
 .featureImg {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover;  /* Ensures the image covers the entire area without distortion */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ensures the image fits nicely within the circular shape */
 }
 
-.text--center {
-  text-align: center;
-}
-
-.padding-horiz--md {
-  padding: 1rem;
-}
-
-.twoColumn {
+.textColumn {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.col--6 {
-  flex: 1 1 calc(50% - 2rem);
-  box-sizing: border-box;
-}
-
-/* Add this to your styles file */
-.contactFormContainer {
-  background-color: #333; /* Dark grey background */
-  padding: 2rem; /* Optional: add some padding around the form */
-  border-radius: 8px; /* Optional: round the corners for a better look */
-}
-
-.contactForm {
-  background-color: #333; /* Light background for the form itself */
-  padding: 2rem; /* Space inside the form */
-  border-radius: 8px; /* Optional: round the corners for the form */
+  flex-direction: column;
+  justify-content: center;
 }
