@@ -31,7 +31,7 @@ const AboutUsList = [
     ),
   },
   {
-    title: 'Aditi Sharma - COO and Secretary',
+    title: 'Aditi Sharma - Secretary',
     Image: AdiSquarePic,
     description: (
       <>
