@@ -31,7 +31,7 @@ const AboutUsList = [
     ),
   },
   {
-    title: 'Aditi Sharma - Secretary',
+    title: 'Aditi Sharma - Director of Outreach',
     Image: AdiSquarePic,
     description: (
       <>

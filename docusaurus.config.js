@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/dracula');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -110,25 +110,25 @@ const config = {
               // },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              // {
-              //   label: 'GitHub',
-              //   href: 'https://github.com/facebook/docusaurus',
-              // },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     // {
+          //     //   label: 'GitHub',
+          //     //   href: 'https://github.com/facebook/docusaurus',
+          //     // },
+          //   ],
+          // },
         ],
         // copyright: `Copyright © ${new Date().getFullYear()} Humane Sleep Project Built with Docusaurus.`,
         copyright: `Humane Sleep Project Built with Docusaurus.`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
