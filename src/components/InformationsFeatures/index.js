@@ -2,20 +2,22 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import HSPLogo from './hsp.png';
+import CroppedMapOfBay from './CroppedMapOfBay.png';
 
 const InformationsList = [
   {
-    title: 'Mission Statement',
-    Image: HSPLogo,
+    title: 'Bay Area Map',
+    Image: CroppedMapOfBay,
     description: (
       <>
-        Humane Sleep Project is dedicated to providing assistance to individuals facing homelessness by ensuring access to essential sleep provisions. Recognizing sleep as a fundamental human necessity, we strongly believe that every person deserves the opportunity to enjoy a restful and comfortable night's sleep.
       </>
     ),
+    buttonText: 'To Dynamic Map',
+    buttonLink: 'https://www.gmapgis.com/viewer.html?fcode=rhR1tfOKQnZ', // Add the link you want to open
   },
 ];
 
-function Informations({Image, title, description}) {
+function Informations({ Image, title, description, buttonText, buttonLink }) {
   return (
     <div className={clsx('col col--12')}>
       <div className="text--center">
@@ -24,6 +26,16 @@ function Informations({Image, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        {buttonLink && (
+          <a
+            href={buttonLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button button--primary"
+          >
+            {buttonText}
+          </a>
+        )}
       </div>
     </div>
   );

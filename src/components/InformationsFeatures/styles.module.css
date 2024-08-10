@@ -19,7 +19,6 @@
 .featureImg {
   height: 200px;
   width: 200px;
-  border-radius: 50%; /* Makes the image circular */
   object-fit: cover;  /* Ensures the image covers the entire area without distortion */
 }
 

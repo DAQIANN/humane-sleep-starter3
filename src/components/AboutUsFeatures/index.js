@@ -9,15 +9,15 @@ import MehakPic from './MehakPic.jpeg';
 import SidProf from './SidProf.png';
 
 const PeoplesList = [
-  {
-    title: 'Mission Statement',
-    Image: HSPLogo,
-    description: (
-      <>
-        Humane Sleep Project is dedicated to providing assistance to individuals facing homelessness by ensuring access to essential sleep provisions. Recognizing sleep as a fundamental human necessity, we strongly believe that every person deserves the opportunity to enjoy a restful and comfortable night's sleep.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Mission Statement',
+  //   Image: HSPLogo,
+  //   description: (
+  //     <>
+  //       Humane Sleep Project is dedicated to providing assistance to individuals facing homelessness by ensuring access to essential sleep provisions. Recognizing sleep as a fundamental human necessity, we strongly believe that every person deserves the opportunity to enjoy a restful and comfortable night's sleep.
+  //     </>
+  //   ),
+  // },
 ];
 
 const AboutUsList = [

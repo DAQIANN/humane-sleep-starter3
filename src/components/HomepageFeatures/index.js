@@ -3,16 +3,14 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  // {
-  //   title: 'Easy to Use',
-  //   Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-  //   description: (
-  //     <>
-  //       Docusaurus was designed from the ground up to be easily installed and
-  //       used to get your website up and running quickly.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Mission Statement',
+    description: (
+      <>
+        Humane Sleep Project is dedicated to providing assistance to individuals facing homelessness by ensuring access to essential sleep provisions. Recognizing sleep as a fundamental human necessity, we strongly believe that every person deserves the opportunity to enjoy a restful and comfortable night's sleep.
+      </>
+    ),
+  },
   // {
   //   title: 'Focus on What Matters',
   //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
@@ -38,9 +36,6 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--12')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

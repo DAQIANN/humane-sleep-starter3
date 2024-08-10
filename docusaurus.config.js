@@ -100,13 +100,13 @@ const config = {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/company/humanesleepproject',
               },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/profile.php?id=100092845128371&mibextid=LQQJ4d',
+              },
               // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
+              //   label: 'Instagram',
+              //   href: 'instagram.com/humanesleepproject',
               // },
             ],
           },
